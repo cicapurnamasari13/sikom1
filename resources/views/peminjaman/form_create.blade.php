@@ -21,7 +21,7 @@
 						<div class="card">
 							<div class="card-body">
 								<div class="main-content-label mg-b-5">
-									Form Input Data Peminjam
+									Form Input Data Peminjaman
 								</div>
 								<p class="mg-b-20">Harap untuk mengisi semua input</p>
 								@include('_component.pesan')
@@ -66,7 +66,7 @@
 										</div>
 									</div>
 									<button class="btn btn-primary pd-x-30 mg-e-5 mg-t-5" type="submit">SIMPAN</button>
-									<a href="{{ route('buku.index') }}" class="btn btn-dark pd-x-30 mg-t-5"> << BACK </a>
+									<a href="{{ route('peminjam.index') }}" class="btn btn-dark pd-x-30 mg-t-5"> << BACK </a>
                                 </form>
 								</div>
 							</div>
